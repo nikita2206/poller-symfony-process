@@ -1,0 +1,19 @@
+{
+    "name": "nikita2206/poller-symfony-process",
+    "description": "Bridge for symfony-process component",
+    "require": {
+        "symfony/process": "~2.5",
+        "nikita2206/poller": "~0.1"
+    },
+    "authors": [
+        {
+            "name": "Nikita Nefedov",
+            "email": "inefedor@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Poller\\Symfony": "Poller/Symfony"
+        }
+    }
+}
