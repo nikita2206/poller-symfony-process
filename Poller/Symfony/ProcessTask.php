@@ -57,6 +57,7 @@ class ProcessTask implements Task
      */
     public function start($threadId)
     {
+        $this->threadId = $threadId;
         $this->process->start();
         $this->stopped = false;
     }
